@@ -10,5 +10,6 @@ class Scroll{
         return $('//*[@text="Swipe horizontal"]');
         // return $('~Swipe-screen');
     } 
+    get(){}
     }
     export default new Scroll();
